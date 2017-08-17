@@ -1,0 +1,17 @@
+{
+  "name": "10minutesapp",
+  "version": "1.0.0",
+  "description": "test app from 10 minutes api nodejs demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Remco Lengers",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}

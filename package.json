@@ -4,7 +4,12 @@
   "description": "test app from 10 minutes api nodejs demo",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/locmer/10minutesapp.git"
   },
   "author": "Remco Lengers",
   "license": "ISC",
@@ -12,6 +17,8 @@
     "nodemon": "^1.11.0"
   },
   "dependencies": {
-    "express": "^4.15.4"
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "mongoose": "^4.11.7"
   }
 }
